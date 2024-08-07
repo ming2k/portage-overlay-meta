@@ -1,0 +1,15 @@
+BDEPEND=app-emacs/request test? ( app-emacs/undercover ) test? ( app-emacs/buttercup ) >=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DESCRIPTION=Paste parts of buffers to several pastebin-like services from Emacs
+EAPI=8
+HOMEPAGE=https://github.com/etu/webpaste.el/
+INHERIT=elisp
+IUSE=test
+KEYWORDS=amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=app-emacs/request >=app-editors/emacs-25.3:*
+RESTRICT=test !test? ( test )
+SLOT=0
+SRC_URI=https://github.com/etu/webpaste.el/archive/3.2.2.tar.gz -> webpaste-3.2.2.tar.gz
+_eclasses_=elisp	fbefa95f5e9ab880a34bc69832b7c0d7	elisp-common	abb2dda42f680fce87602c8273f832c7
+_md5_=5d0d5adeb85d05c8c9e073c2c1952fe9

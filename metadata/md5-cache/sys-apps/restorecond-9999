@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-libs/glib:2 >=sys-libs/libsepol-9999:= >=sys-libs/libselinux-9999:=
+DESCRIPTION=Daemon to watch for creation and set default SELinux fcontexts
+EAPI=8
+HOMEPAGE=https://github.com/SELinuxProject/selinux/wiki
+INHERIT=systemd toolchain-funcs git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-libs/glib:2 >=sys-libs/libsepol-9999:= >=sys-libs/libselinux-9999:=
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	toolchain-funcs	e7e7331166166e7a516d19e264b098c2
+_md5_=d433d3f1bb32cc244a44c01e81604696

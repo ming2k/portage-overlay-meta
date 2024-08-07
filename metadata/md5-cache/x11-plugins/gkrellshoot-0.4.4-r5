@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig virtual/pkgconfig
+DEFINED_PHASES=compile install
+DEPEND=app-admin/gkrellm:2[X]
+DESCRIPTION=GKrellm2 plugin to take screen shots and lock screen
+EAPI=8
+HOMEPAGE=http://gkrellshoot.sourceforge.net/
+INHERIT=gkrellm-plugin toolchain-funcs
+KEYWORDS=~alpha amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=app-admin/gkrellm:2[X] virtual/imagemagick-tools
+SLOT=2
+SRC_URI=https://downloads.sourceforge.net/gkrellshoot/gkrellshoot-0.4.4.tar.gz
+_eclasses_=gkrellm-plugin	4bb5351093aa148dc0326e9f9bcd1cf7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2
+_md5_=7351202ca313862b1031365af2b8f262
