@@ -17,10 +17,13 @@ IUSE="wayland"
 # Define the version
 S="${WORKDIR}/idea-IU-${PV}"
 
-RDEPEND="
-        virtual/jre
-        sys-process/audit
-"
+DEPEND="wayland? ( dev-libs/wayland )"
+RDEPEND="${DEPEND}
+	sys-libs/glibc
+	media-libs/harfbuzz
+	dev-java/jansi-native
+    sys-process/audit
+	dev-libs/libdbusmenu"
 
 src_unpack() {
     # Extract the source tarball
