@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer type="person">
-		<email>mpagano@gentoo.org</email>
-		<name>Mike Pagano</name>
-	</maintainer>
-	<longdescription lang="en">
-	Excel at enterprise, mobile and web development with Java, Scala and Groovy, with all the latest modern technologies and frameworks available out of the box.
-	</longdescription>
+    <maintainer>
+        <email>fox20431@gmail.com</email>
+        <name>Ming</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="github">jetbrains/intellij-community</remote-id>
+        <homepage>https://www.jetbrains.com/idea/nextversion/</homepage>
+        <bugs-to>https://youtrack.jetbrains.com/</bugs-to>
+    </upstream>
+    <use>
+        <flag name="wayland">
+            Enable support for the Wayland display server protocol.
+        </flag>
+    </use>
+    <longdescription>
+        IDEA EAP (Early Access Program) is a development environment provided by JetBrains for testing and early feedback on the latest features of IntelliJ IDEA. This package allows you to install the latest EAP release.
+    </longdescription>
+    <changelog>
+        https://raw.githubusercontent.com/jetbrains/intellij-community/master/CHANGELOG.md
+    </changelog>
 </pkgmetadata>
